@@ -17,7 +17,7 @@
   background-color: var(--white);
 }
 
-.page__item {
+.container {
   box-sizing: border-box;
   height: 100%;
   margin: 0 auto;
