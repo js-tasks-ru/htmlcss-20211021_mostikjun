@@ -1,0 +1,26 @@
+.page {
+  margin: 0;
+}
+
+.page__header {
+  background-color: var(--white);
+}
+
+.page__body {
+  background-color: var(--gray-1);
+  border: 0.0625rem solid var(--gray-2);
+  /* Temporarily hardcode the height, until body content is added. */
+  height: 64rem;
+}
+
+.page__bottom {
+  background-color: var(--white);
+}
+
+.container {
+  box-sizing: border-box;
+  height: 100%;
+  margin: 0 auto;
+  max-width: 70rem;
+  padding: 0 10rem;
+}
