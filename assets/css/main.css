@@ -22,6 +22,8 @@
   --primary-active: var(--blue-1);
   --secondary: var(--purple);
   --secondary-active: var(--purple-1);
+
+  --black-rgb: 33, 36, 41;
 }
 
 * {

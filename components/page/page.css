@@ -6,7 +6,7 @@
   background-color: var(--white);
 }
 
-.page__body {
+.page__preview {
   background-color: var(--gray-1);
   border: 1px solid var(--gray-2);
 }
