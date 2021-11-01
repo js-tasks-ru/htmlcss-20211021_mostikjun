@@ -6,11 +6,9 @@
   background-color: var(--white);
 }
 
-.page__body {
+.page__preview {
   background-color: var(--gray-1);
-  border: 0.0625rem solid var(--gray-2);
-  /* Temporarily hardcode the height, until body content is added. */
-  height: 64rem;
+  border: 1px solid var(--gray-2);
 }
 
 .page__bottom {
@@ -21,6 +19,6 @@
   box-sizing: border-box;
   height: 100%;
   margin: 0 auto;
-  max-width: 70rem;
+  max-width: 90rem;
   padding: 0 10rem;
 }
