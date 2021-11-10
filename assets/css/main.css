@@ -9,6 +9,9 @@
   --purple-1: #5028c6;
   --blue: #4263eb;
   --blue-1: #2342c0;
+  --blue-2: #334d6e;
+  --blue-3: #90a0b7;
+  --blue-4: #a0b1f5;
   --red: #f03d3e;
   --gray-1: #f8f9fa;
   --gray-2: #dde2e5;
@@ -24,6 +27,7 @@
   --secondary-active: var(--purple-1);
 
   --black-rgb: 33, 36, 41;
+  --blue-4-rgb: 160, 177, 245;
 }
 
 * {
