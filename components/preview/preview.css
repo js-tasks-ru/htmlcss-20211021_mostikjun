@@ -16,3 +16,12 @@
   width: 22rem;
   min-width: 22rem;
 }
+
+.preview__card .preview__card-tooltip {
+  padding: 9.25rem 6.875rem 8rem;
+  text-align: center;
+}
+
+.preview__card .preview__card-histogram {
+  padding: 5rem 1.5rem 4.5rem;
+}
