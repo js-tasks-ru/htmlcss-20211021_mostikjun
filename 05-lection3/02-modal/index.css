@@ -1,0 +1,44 @@
+.page {
+  padding: 0 1rem;
+}
+
+.page__modal-container {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: flex-start;
+
+  box-sizing: border-box;
+  padding: 0.75rem 0.75rem 2rem 2.5rem;
+  width: 26.75rem;
+}
+
+.page__modal-close {
+  align-self: flex-end;
+}
+
+.page__modal-close:active {
+  transform: scale(0.95);
+}
+
+.page__modal-title {
+  color: var(--blue-2);
+  font-family: 'Inter';
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+
+  padding: 0.125rem 0 0.875rem 0;
+}
+
+.page__modal-body {
+  color: var(--gray-4);
+  font-family: 'Inter';
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+
+  flex-grow: 1;
+
+  padding: 0 1.75rem 0 0;
+}

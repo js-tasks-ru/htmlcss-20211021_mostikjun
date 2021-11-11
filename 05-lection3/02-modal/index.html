@@ -1,12 +1,33 @@
 <!DOCTYPE html>
-<!-- Страница с модалкой -->
 <html lang="ru">
-    <head>
-        <link rel="stylesheet" href="../../assets/css/main.css">
-        <link rel="stylesheet" href="./modal.css">
-        <title>Modal</title>
-    </head>
-    <body>
-    </body>
-    <script src="./index.js"></script> 
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../../assets/css/main.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./modal.css" />
+    <link rel="stylesheet" href="../../components/button/button.css" />
+  </head>
+  <body class="page">
+    <header>
+      <h1>Modal</h1>
+    </header>
+    <main>
+      <button id="modal-open" class="button button_primary button_mid-size">Open Modal</button>
+      <div id="modal" class="modal">
+        <div class="modal__container">
+          <div class="page__modal-container">
+            <a id="modal-close" href="" class="page__modal-close">
+              <img src="./public/cross-mark.svg" alt="Modal close button" />
+            </a>
+            <div class="page__modal-title">Modal title</div>
+            <div class="page__modal-body">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+              sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="./index.js"></script>
 </html>
