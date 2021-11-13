@@ -17,23 +17,21 @@
   min-width: 22rem;
 }
 
-.preview__card .preview__card-modal {
-  padding: 2rem 2rem 3.5rem;
-}
-
-.preview__card .preview__card-modal .preview__modal-sandbox {
+.preview__modal-sandbox {
   position: relative;
 
   box-sizing: border-box;
-  height: 100%;
-  width: 100%;
+  height: 13.875rem;
+  width: 17.75rem;
+
+  margin-top: 2rem;
 }
 
-.preview__card .preview__card-modal .preview__modal_visible {
+.preview__modal-sandbox .preview__modal_visible {
   display: block;
 }
 
-.preview__card .preview__card-modal .preview__form {
+.preview__modal-sandbox .preview__form {
   display: flex;
   flex-direction: column;
   align-content: stretch;
@@ -41,12 +39,12 @@
   padding: 1.25rem;
 }
 
-.preview__card .preview__card-modal .preview__form-item {
+.preview__modal-sandbox .preview__form-item {
   display: block;
   width: 12rem;
 }
 
-.preview__card .preview__card-modal .preview__form-label {
+.preview__modal-sandbox .preview__form-label {
   color: var(--gray-3);
   display: block;
   font-family: 'Inter';
@@ -57,7 +55,7 @@
   text-transform: uppercase;
 }
 
-.preview__card .preview__card-modal .preview__form-input {
+.preview__modal-sandbox .preview__form-input {
   border: 1px solid var(--gray-2);
   border-radius: 4px;
   box-sizing: border-box;
@@ -71,15 +69,18 @@
   width: 100%;
 }
 
-.preview__card .preview__card-modal .preview__form-input::placeholder {
+.preview__modal-sandbox .preview__form-input::placeholder {
   color: var(--gray-2);
 }
 
-.preview__card .preview__card-modal .preview__form-input:focus {
+.preview__modal-sandbox .preview__form-input:focus {
   border-color: var(--blue);
   outline: none;
 }
 
-.preview__card .preview__card-histogram {
-  padding: 5rem 1.5rem 4.5rem;
+.preview__histogram {
+  height: 9.75rem;
+  width: 18.75rem;
+
+  margin-top: 3.75rem;
 }
