@@ -9,6 +9,7 @@
 .page__preview {
   background-color: var(--gray-1);
   border: 1px solid var(--gray-2);
+  min-width: 42rem;
 }
 
 .page__bottom {

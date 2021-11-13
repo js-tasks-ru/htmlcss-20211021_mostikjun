@@ -17,10 +17,16 @@
   min-width: 22rem;
 }
 
-.preview__card .preview__card-calendar {
-  padding: 2rem 4.625rem 2rem;
+.preview__calendar {
+  height: 13.5rem;
+  width: 12.625rem;
+
+  margin-top: 2rem;
 }
 
-.preview__card .preview__card-histogram {
-  padding: 5rem 1.5rem 4.5rem;
+.preview__histogram {
+  height: 9.75rem;
+  width: 18.75rem;
+
+  margin-top: 3.75rem;
 }
