@@ -25,5 +25,11 @@
   background-color: var(--white);
   flex-grow: 1;
   order: 1;
-  padding: 5rem 1.5rem 4.5rem;
+
+  align-self: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
 }
