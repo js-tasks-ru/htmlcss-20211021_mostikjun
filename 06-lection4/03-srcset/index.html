@@ -1,10 +1,23 @@
 <!DOCTYPE html>
 <html lang="ru">
-    <head>
-        <link rel="stylesheet" href="../../assets/css/main.css">
-        <link rel="stylesheet" href="./srcset.css">
-    </head>
-    <body>
-
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../../assets/css/main.css" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body class="page">
+    <header>
+      <h1>Srcset Sample</h1>
+    </header>
+    <main class="page__main">
+      <div class="page__square">
+        <img
+          src="./public/forest_400.jpg"
+          alt="Sample image"
+          srcset="./public/forest_768.jpg 2x"
+          class="page__image"
+        />
+      </div>
+    </main>
+  </body>
 </html>

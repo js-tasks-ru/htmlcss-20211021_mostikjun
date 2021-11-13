@@ -1,0 +1,31 @@
+.page {
+  padding: 0 1rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: stretch;
+
+  height: 100%;
+}
+
+.page__main {
+  flex-grow: 1;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page__square {
+  height: 300px;
+  width: 300px;
+}
+
+.page__image {
+  height: 100%;
+  width: 100%;
+
+  object-fit: cover;
+  object-position: center;
+}
