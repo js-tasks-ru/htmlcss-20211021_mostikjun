@@ -1,0 +1,8 @@
+.page {
+  padding: 0 1rem;
+}
+
+.page__avatar {
+  height: 6.375rem;
+  width: 6.375rem;
+}
