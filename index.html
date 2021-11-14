@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./components/preview/preview.css" />
     <link rel="stylesheet" href="./components/card/card.css" />
     <link rel="stylesheet" href="./components/histogram/histogram.css" />
+    <link rel="stylesheet" href="./components/tooltip/tooltip.css" />
     <link rel="stylesheet" href="./components/footer/footer.css" />
   </head>
   <body class="page">
@@ -24,7 +25,12 @@
         <main class="preview">
           <section class="card preview__card">
             <h3 class="card__caption">Tooltip</h3>
-            <div class="card__content"></div>
+            <div class="card__content">
+              <div class="tooltip preview__tooltip">
+                <img src="./assets/images/question-mark.svg" alt="Question mark icon" class="tooltip__trigger" />
+                <div class="tooltip__bubble">Helper text</div>
+              </div>
+            </div>
           </section>
           <section class="card preview__card">
             <h3 class="card__caption">Custom form elements</h3>
@@ -41,7 +47,7 @@
           <section class="card preview__card">
             <h3 class="card__caption">Histogram</h3>
             <div class="card__content">
-              <div class="histogram histogram_small-size">
+              <div class="histogram histogram_small-size preview__histogram">
                 <div class="histogram__header">
                   <div class="histogram__total">
                     <div class="histogram__total-label">Total orders</div>
@@ -96,10 +102,8 @@
         <footer class="footer">
           <h2 class="footer__title">About</h2>
           <p class="footer__description">
-            This project is a collection of professionally designed, pre-built,
-            fully responsive HTML snippets you can drop into your projects. Get
-            started by checking out our free preview components, or browsing the
-            PNG previews in the categories you're most curious about.
+            This project is a collection of professionally designed, pre-built, fully responsive HTML snippets you can drop into your projects. Get started by checking out our free preview components, or browsing the PNG previews in the categories you're
+            most curious about.
           </p>
         </footer>
       </div>
