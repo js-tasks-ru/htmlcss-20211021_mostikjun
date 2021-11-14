@@ -1,0 +1,96 @@
+.template {
+  display: grid;
+  /* For now set fixed height for header and footer. */
+  grid-template-rows: 5rem 1fr 10rem;
+  grid-template-areas:
+    'header'
+    'body'
+    'footer';
+
+  height: 100%;
+}
+
+.template__header {
+  grid-area: header;
+
+  background-color: var(--white);
+}
+
+.template__body {
+  grid-area: body;
+
+  background-color: var(--gray-1);
+}
+
+.template__nav-content {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-areas: 'sidebar content';
+  column-gap: 3.5rem;
+
+  height: 100%;
+  padding: 2.25rem 0 0 0;
+}
+
+.template__sidebar {
+  grid-area: sidebar;
+
+  background-color: var(--gray-1);
+}
+
+.template__content {
+  grid-area: content;
+
+  background-color: var(--white);
+  border-radius: 12px;
+  box-shadow: 0px 2px 4px rgba(var(--black-rgb), 0.05);
+
+  min-width: 22rem;
+}
+
+.template__footer {
+  grid-area: footer;
+
+  background-color: var(--gray-1);
+}
+
+.template__placeholder-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+  color: var(--gray-3);
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 1rem;
+  letter-spacing: 0.04rem;
+  line-height: 1.125rem;
+  text-transform: uppercase;
+}
+
+.template__project-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+  color: var(--gray-3);
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 0.75rem;
+  letter-spacing: 0.04rem;
+  line-height: 1.125rem;
+  text-transform: uppercase;
+}
+
+.container {
+  box-sizing: border-box;
+  height: 100%;
+  margin: 0 auto;
+  max-width: 90rem;
+  padding: 0 10rem;
+}
