@@ -17,6 +17,7 @@
   --gray-2: #dde2e5;
   --gray-3: #acb5bd;
   --gray-4: #495057;
+  --orange: #d84910;
 
   --error: var(--red);
   --success: var(--blue);
@@ -36,4 +37,12 @@
 
 html {
   height: 100%;
+}
+
+.container {
+  box-sizing: border-box;
+  height: 100%;
+  margin: 0 auto;
+  max-width: 90rem;
+  padding: 0 10rem;
 }
