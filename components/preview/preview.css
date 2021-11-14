@@ -16,3 +16,50 @@
   width: 22rem;
   min-width: 22rem;
 }
+
+.preview__form {
+  display: flex;
+  flex-direction: column;
+  align-content: stretch;
+  gap: 0.85rem;
+  padding: 1.25rem;
+}
+
+.preview__form-item {
+  display: block;
+  width: 12rem;
+}
+
+.preview__form-label {
+  color: var(--gray-3);
+  display: block;
+  font-family: 'Inter';
+  font-size: 0.5rem;
+  font-weight: 400;
+  letter-spacing: 0.04rem;
+  padding: 0 0 0.3rem 0;
+  text-transform: uppercase;
+}
+
+.preview__form-input {
+  border: 1px solid var(--gray-2);
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: var(--gray-4);
+  display: block;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 0.7rem;
+  line-height: 1.25rem;
+  padding: 0.25rem 0.75rem;
+  width: 100%;
+}
+
+.preview__form-input::placeholder {
+  color: var(--gray-2);
+}
+
+.preview__form-input:focus {
+  border-color: var(--blue);
+  outline: none;
+}

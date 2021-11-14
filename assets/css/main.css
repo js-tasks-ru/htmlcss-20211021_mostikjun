@@ -17,6 +17,7 @@
   --gray-2: #dde2e5;
   --gray-3: #acb5bd;
   --gray-4: #495057;
+  --gray-5: #c4c4c4;
   --orange: #d84910;
 
   --error: var(--red);
@@ -29,6 +30,7 @@
 
   --black-rgb: 33, 36, 41;
   --blue-4-rgb: 160, 177, 245;
+  --gray-5-rgb: 196, 196, 196;
 }
 
 * {
