@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./components/button/button.css" />
     <link rel="stylesheet" href="./components//modal/modal.css" />
     <link rel="stylesheet" href="./components/histogram/histogram.css" />
+    <link rel="stylesheet" href="./components/tooltip/tooltip.css" />
     <link rel="stylesheet" href="./components/footer/footer.css" />
   </head>
   <body class="page">
@@ -26,7 +27,12 @@
         <main class="preview">
           <section class="card preview__card">
             <h3 class="card__caption">Tooltip</h3>
-            <div class="card__content"></div>
+            <div class="card__content">
+              <div class="tooltip">
+                <img src="./assets/images/question-mark.svg" alt="Question mark icon" class="tooltip__trigger" />
+                <div class="tooltip__bubble">Helper text</div>
+              </div>
+            </div>
           </section>
           <section class="card preview__card">
             <h3 class="card__caption">Custom form elements</h3>
@@ -63,7 +69,7 @@
           <section class="card preview__card">
             <h3 class="card__caption">Histogram</h3>
             <div class="card__content">
-              <div class="histogram histogram_small-size preview__histogram">
+              <div class="histogram histogram_small-size">
                 <div class="histogram__header">
                   <div class="histogram__total">
                     <div class="histogram__total-label">Total orders</div>
