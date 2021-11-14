@@ -1,0 +1,35 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0 1rem;
+}
+
+.page__main {
+  flex-grow: 1;
+  position: relative;
+}
+
+.page__calendar {
+  position: absolute;
+
+  /*
+    Change calendar's width on window resize to test resizing behavior of the calendar component.
+  */
+  left: 25%;
+  right: 25%;
+}
+
+.page__calendar:not(.calendar_small-size) {
+  display: none;
+}
+
+@media (min-width: 36rem) {
+  .page__calendar_small-size {
+    display: none;
+  }
+
+  .page__calendar:not(.calendar_small-size) {
+    display: initial;
+  }
+}
