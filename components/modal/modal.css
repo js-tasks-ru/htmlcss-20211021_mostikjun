@@ -1,14 +1,18 @@
 .modal {
   background-color: rgba(var(--gray-5-rgb), 0.5);
+  box-sizing: border-box;
   display: none;
 
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  position: fixed;
+  left: 0;
+  top: 0;
 
   height: 100%;
   width: 100%;
+}
+
+.modal_visible {
+  display: block;
 }
 
 .modal__container {
@@ -23,4 +27,15 @@
 
 .modal_small-size .modal__container {
   border-radius: 4px;
+}
+
+.modal__scope {
+  position: relative;
+
+  height: 100%;
+  width: 100%;
+}
+
+.modal__scope .modal {
+  position: absolute;
 }
