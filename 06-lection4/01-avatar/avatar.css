@@ -2,6 +2,9 @@
   border-radius: 50%;
   box-sizing: border-box;
   overflow: hidden;
+
+  height: 6.375rem;
+  width: 6.375rem;
 }
 
 .avatar__image {
@@ -10,4 +13,9 @@
 
   object-fit: cover;
   object-position: center;
+}
+
+.avatar_large-size {
+  height: 10rem;
+  width: 10rem;
 }
