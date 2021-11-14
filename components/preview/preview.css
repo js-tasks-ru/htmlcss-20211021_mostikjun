@@ -16,17 +16,3 @@
   width: 22rem;
   min-width: 22rem;
 }
-
-.preview__calendar {
-  height: 13.5rem;
-  width: 12.625rem;
-
-  margin-top: 2rem;
-}
-
-.preview__histogram {
-  height: 9.75rem;
-  width: 18.75rem;
-
-  margin-top: 3.75rem;
-}

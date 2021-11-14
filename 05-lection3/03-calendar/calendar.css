@@ -4,6 +4,7 @@
   border-radius: 0.5rem;
   box-sizing: border-box;
   padding: 1.625rem;
+  width: 100%;
 }
 
 .calendar__title {
@@ -73,19 +74,20 @@
   background-color: rgba(var(--blue-4-rgb), 0.2);
 }
 
-.calendar.calendar_small-size {
+.calendar_small-size {
   padding: 1rem;
+  max-width: 12.625rem;
 }
 
-.calendar.calendar_small-size .calendar__title {
+.calendar_small-size .calendar__title {
   font-size: 0.9rem;
   padding: 0 0 0.75rem 0;
 }
 
-.calendar.calendar_small-size .calendar__item-day-name {
+.calendar_small-size .calendar__item-day-name {
   font-size: 0.6rem;
 }
 
-.calendar.calendar_small-size .calendar__item-day {
+.calendar_small-size .calendar__item-day {
   font-size: 0.7rem;
 }
