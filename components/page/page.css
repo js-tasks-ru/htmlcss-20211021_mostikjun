@@ -9,16 +9,9 @@
 .page__preview {
   background-color: var(--gray-1);
   border: 1px solid var(--gray-2);
+  min-width: 42rem;
 }
 
 .page__bottom {
   background-color: var(--white);
-}
-
-.container {
-  box-sizing: border-box;
-  height: 100%;
-  margin: 0 auto;
-  max-width: 90rem;
-  padding: 0 10rem;
 }

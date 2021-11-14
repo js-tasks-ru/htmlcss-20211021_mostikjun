@@ -5,8 +5,7 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  gap: 4.5rem;
-  padding: 5rem 1.5rem 2rem;
+  overflow: hidden;
 }
 
 .card__caption {
@@ -18,6 +17,7 @@
   line-height: 1.6rem;
   margin: 0;
   order: 2;
+  padding: 0 0 2rem;
   text-align: center;
 }
 
@@ -25,4 +25,13 @@
   background-color: var(--white);
   flex-grow: 1;
   order: 1;
+
+  align-self: stretch;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: 2rem;
 }
