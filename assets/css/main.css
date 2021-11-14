@@ -34,3 +34,11 @@
 html {
   height: 100%;
 }
+
+.container {
+  box-sizing: border-box;
+  height: 100%;
+  margin: 0 auto;
+  max-width: 90rem;
+  padding: 0 10rem;
+}
