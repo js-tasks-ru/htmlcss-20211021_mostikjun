@@ -1,9 +1,14 @@
-.page {
-  margin: 0;
-}
-
 .page__header {
   background-color: var(--white);
+  box-sizing: border-box;
+  height: 12.5rem;
+  min-width: 62rem;
+}
+
+.page__tabs {
+  background-color: var(--white);
+  box-sizing: border-box;
+  height: 2.25rem;
 }
 
 .page__preview {
@@ -12,6 +17,17 @@
   min-width: 42rem;
 }
 
-.page__bottom {
+.page__footer {
   background-color: var(--white);
+}
+
+.page__tab-placeholder {
+  border-bottom: 5px solid var(--black);
+  box-sizing: border-box;
+  display: inline-block;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  height: 100%;
 }

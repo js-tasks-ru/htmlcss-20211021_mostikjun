@@ -1,6 +1,5 @@
 .template {
   display: grid;
-  /* For now set fixed height for header and footer. */
   grid-template-rows: 5rem 1fr 10rem;
   grid-template-areas:
     'header'
@@ -13,7 +12,7 @@
 .template__header {
   grid-area: header;
 
-  background-color: var(--white);
+  background-color: var(--gray-1);
 }
 
 .template__body {
@@ -55,22 +54,6 @@
   background-color: var(--gray-1);
 }
 
-.template__placeholder-text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-
-  color: var(--gray-3);
-  font-family: 'Inter';
-  font-weight: 500;
-  font-size: 1rem;
-  letter-spacing: 0.04rem;
-  line-height: 1.125rem;
-  text-transform: uppercase;
-}
-
 .template__project-name {
   display: flex;
   flex-direction: column;
@@ -82,6 +65,30 @@
   font-family: 'Inter';
   font-weight: 500;
   font-size: 0.75rem;
+  letter-spacing: 0.04rem;
+  line-height: 1.125rem;
+  text-transform: uppercase;
+}
+
+.container {
+  box-sizing: border-box;
+  height: 100%;
+  margin: 0 auto;
+  max-width: 90rem;
+  padding: 0 10rem;
+}
+
+.template__component_placeholder {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+  color: var(--gray-3);
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 1rem;
   letter-spacing: 0.04rem;
   line-height: 1.125rem;
   text-transform: uppercase;
