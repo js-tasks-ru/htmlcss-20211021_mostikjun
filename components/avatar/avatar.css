@@ -16,6 +16,13 @@
 }
 
 .avatar_large-size {
-  height: 10rem;
-  width: 10rem;
+  height: 7.25rem;
+  width: 7.25rem;
+}
+
+@media (min-width: 376px) {
+  .avatar_large-size {
+    height: 10rem;
+    width: 10rem;
+  }
 }

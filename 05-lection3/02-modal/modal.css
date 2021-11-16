@@ -25,10 +25,6 @@
   transform: translate(-50%, -50%);
 }
 
-.modal_small-size .modal__container {
-  border-radius: 4px;
-}
-
 .modal__scope {
   position: relative;
 
@@ -38,4 +34,14 @@
 
 .modal__scope .modal {
   position: absolute;
+}
+
+.modal_small-size .modal__container {
+  border-radius: 0;
+}
+
+@media (min-width: 376px) {
+  .modal_small-size .modal__container {
+    border-radius: 4px;
+  }
 }
